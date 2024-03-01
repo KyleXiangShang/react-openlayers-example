@@ -73,9 +73,10 @@ function MapWrapper(props) {
 
     return (
       <>
-       <div ref={mapElement} className="map-container" />
-        <div className="map-container_button" >
-          {renderButton()}
+       <div ref={mapElement} className="map-container" >
+          <div className="map-container_button" >
+            {renderButton()}
+          </div>
         </div>
       </>
     )
