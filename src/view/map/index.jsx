@@ -19,7 +19,7 @@ function MapWrapper(props) {
       {key:2,title:'地形',style:'terrain'},
       {key:1,title:'街道二',style:'rasterGaode'},     
     ] 
-    const centerPos = transform([117.29, 31.85], 'EPSG:4326', 'EPSG:3857');
+    const centerPos = transform([116.404844, 39.914603], 'EPSG:4326', 'EPSG:3857');
     const mapElement = useRef(null);
     let map = null; 
 

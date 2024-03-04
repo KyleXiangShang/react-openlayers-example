@@ -8,7 +8,7 @@
         height: 85px;
         width: 6%;
         position:absolute;
-        left: 92%;
+        right: 60px;
         z-index: 1;
         bottom: 32px;
         display: flex;
@@ -37,8 +37,7 @@
         }
     }
     &_button:hover{
-        width: 29%;
-        left: 69%;
+        width: 560px;
         background-color: #ffffffd6;
         
         .map-container_button--change{

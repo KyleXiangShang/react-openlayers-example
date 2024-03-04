@@ -28,7 +28,7 @@ export const gitBaseMap = () => {
     name: 'terrain',
     visible: false,
     });
-    //街道 - 百度
+    //街道 - 腾讯
     const raster = new TileLayer({
     source: new XYZ({
         tileSize: 256,
